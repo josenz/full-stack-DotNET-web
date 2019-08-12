@@ -7,5 +7,9 @@ namespace BooksAPI.Services
     {
         public DbSet<Book> Books { get; set; }
 
+        public BooksDbContext(DbContextOptions<BooksDbContext> options) : base(options)
+        {
+            Database.EnsureCreated();
+        }
     }
 }
