@@ -23,6 +23,11 @@ namespace BooksAPI.Services
                 {
                     Name = "Physics For Everyone",
                     Price = 99.55M
+                },
+                new Book()
+                {
+                    Name = "Chemistry The Secret",
+                    Price = 29.99M
                 }
             };
 
