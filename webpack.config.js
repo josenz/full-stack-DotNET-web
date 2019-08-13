@@ -7,13 +7,13 @@ module.exports = {
         path: path.resolve(__dirname, 'wwwroot/dist'),
         filename: 'bundle.js'
     },
-    modules: {
+    module: {
         rules: [
-            { test: /\.js?$/,
+            { test: /\.jsx?$/,
               use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/preset-env']
+                    presets: ['@babel/preset-react', '@babel/preset-env']
                 }
               }
             }
