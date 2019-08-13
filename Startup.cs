@@ -1,4 +1,4 @@
-﻿// ** Microsoft.AspNetCore.Mvc directive was introduced here at this process stage.
+﻿
 using Microsoft.AspNetCore.Mvc;
 
 using Microsoft.Extensions.Configuration;
@@ -34,7 +34,7 @@ namespace BooksAPI
 
             booksDbContext.CreateSeedData();
 
-            // app.UseMvc -> this Method from IApplicationBuilder was added here at this process stage.
+
             app.UseMvc();
         }
     }
