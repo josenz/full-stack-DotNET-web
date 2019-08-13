@@ -1,0 +1,13 @@
+{
+    "name": "booksapi",
+    "version": "1.0.1",
+    "private": true,
+    "scripts": {
+        "wbp": "webpack"
+    },
+    "devDependencies": {
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {}
+}
