@@ -1,0 +1,14 @@
+/Users/jose/Desktop/C-Sharp/BooksAPI/bin/Debug/netcoreapp2.2/BooksAPI.deps.json
+/Users/jose/Desktop/C-Sharp/BooksAPI/bin/Debug/netcoreapp2.2/BooksAPI.runtimeconfig.json
+/Users/jose/Desktop/C-Sharp/BooksAPI/bin/Debug/netcoreapp2.2/BooksAPI.runtimeconfig.dev.json
+/Users/jose/Desktop/C-Sharp/BooksAPI/bin/Debug/netcoreapp2.2/BooksAPI.dll
+/Users/jose/Desktop/C-Sharp/BooksAPI/bin/Debug/netcoreapp2.2/BooksAPI.pdb
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.csprojAssemblyReference.cache
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.csproj.CoreCompileInputs.cache
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.RazorAssemblyInfo.cache
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.RazorAssemblyInfo.cs
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.AssemblyInfoInputs.cache
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.AssemblyInfo.cs
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.RazorTargetAssemblyInfo.cache
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.dll
+/Users/jose/Desktop/C-Sharp/BooksAPI/obj/Debug/netcoreapp2.2/BooksAPI.pdb
