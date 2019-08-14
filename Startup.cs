@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using BooksAPI.Services;
 
+
 namespace BooksAPI
 {
     public class Startup
@@ -32,8 +33,9 @@ namespace BooksAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            booksDbContext.CreateSeedData();
+            app.UseStaticFiles();
 
+            booksDbContext.CreateSeedData();
 
             app.UseMvc();
         }
