@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using BooksAPI.Services;
-
+using Microsoft.AspNetCore.SpaServices.Webpack;
 
 namespace BooksAPI
 {
@@ -31,12 +31,16 @@ namespace BooksAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                var options = new WebpackDevMiddlewareOptions()
+                    {
+                        HotModuleReplacement = true
+                    };
+                app.UseWebpackDevMiddleware(options);
             }
 
             app.UseStaticFiles();
-
             booksDbContext.CreateSeedData();
-
             app.UseMvc();
         }
     }
